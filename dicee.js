@@ -11,7 +11,7 @@ let theWinnerIs = (document.getElementById("theWinnerIs").textContent = "Roll");
 // onClick function call in HTML
 
 /** *
- * This function rolls the dice.
+ * This function rolls the dice
  */
 function roll() {
   let randomNumber1 = Math.floor(Math.random() * 6) + 1;
